@@ -15,7 +15,7 @@ se puede inclusive crear una variable para cada uno de los atributos de las etiq
 let imagen = document.querySelectorAll(".imagen");
 for(let i= 0; i<imagen.length; i++){
     let valorI= prompt(`Ingrese URL la Imagen ${i+1}:`);
-    imagen[i].setAttribute('src', valorI)
+    imagen[i].setAttribute('src', valorI) 
 }
 
 let href = document.querySelectorAll(".etiquetaI");
